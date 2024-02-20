@@ -450,6 +450,10 @@ PrefabInstance:
       propertyPath: m_BlendShapeWeights.Array.size
       value: 29
       objectReference: {fileID: 0}
+    - target: {fileID: 4256533674305068393, guid: e8e1413e23184604b85c9b2a12fa7fe6, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: be4e7d0c9274b904b9f96fe1f97b4c69, type: 2}
     - target: {fileID: 4256533674312363695, guid: e8e1413e23184604b85c9b2a12fa7fe6, type: 3}
       propertyPath: m_Name
       value: Gorilla_LOD2
@@ -798,7 +802,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream
 --- !u!1 &986269245
+=======
+--- !u!1 &1041093286
+>>>>>>> Stashed changes
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -806,6 +814,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< Updated upstream
   - component: {fileID: 986269246}
   - component: {fileID: 986269251}
   - component: {fileID: 986269250}
@@ -814,17 +823,29 @@ GameObject:
   - component: {fileID: 986269247}
   m_Layer: 0
   m_Name: Right Controller
+=======
+  - component: {fileID: 1041093288}
+  - component: {fileID: 1041093287}
+  m_Layer: 0
+  m_Name: AudioSource
+>>>>>>> Stashed changes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< Updated upstream
 --- !u!4 &986269246
 Transform:
+=======
+--- !u!82 &1041093287
+AudioSource:
+>>>>>>> Stashed changes
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
   m_GameObject: {fileID: 986269245}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -867,6 +888,30 @@ MonoBehaviour:
   m_LineRetractionDelay: 0.5
   m_LineLengthChangeSpeed: 12
   m_WidthCurve:
+=======
+  m_GameObject: {fileID: 1041093286}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 0.37
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+>>>>>>> Stashed changes
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
@@ -876,15 +921,68 @@ MonoBehaviour:
       outSlope: 0
       tangentMode: 0
       weightedMode: 0
+<<<<<<< Updated upstream
       inWeight: 0
       outWeight: 0
     - serializedVersion: 3
       time: 1
+=======
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+>>>>>>> Stashed changes
       value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
       weightedMode: 0
+<<<<<<< Updated upstream
       inWeight: 0
       outWeight: 0
     m_PreInfinity: 2
@@ -1503,11 +1601,20 @@ MonoBehaviour:
   m_RequestedTrackingOriginMode: 0
   m_CameraYOffset: 1.1176
 --- !u!4 &1187979297
+=======
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &1041093288
+>>>>>>> Stashed changes
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
   m_GameObject: {fileID: 1187979294}
   serializedVersion: 2
   m_LocalRotation: {x: -0.017121999, y: 0.3544741, z: -0.006481079, w: -0.9348866}
@@ -1518,6 +1625,17 @@ Transform:
   - {fileID: 1809238676}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -5.5, y: 117.89, z: 0}
+=======
+  m_GameObject: {fileID: 1041093286}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> Stashed changes
 --- !u!1 &1231970020
 GameObject:
   m_ObjectHideFlags: 0
@@ -1562,6 +1680,8 @@ PlayableDirector:
     value: {fileID: 510211119}
   - key: {fileID: -9041085580078963220, guid: 369e038838f012549a60160cd60e5bf6, type: 2}
     value: {fileID: 510211119}
+  - key: {fileID: 4950241270379467834, guid: 369e038838f012549a60160cd60e5bf6, type: 2}
+    value: {fileID: 1041093287}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &1231970022
@@ -2996,6 +3116,7 @@ SceneRoots:
   - {fileID: 1248175507}
   - {fileID: 939902226}
   - {fileID: 1359269462}
+  - {fileID: 1041093288}
   - {fileID: 1231970022}
   - {fileID: 548454163}
   - {fileID: 769522866}
