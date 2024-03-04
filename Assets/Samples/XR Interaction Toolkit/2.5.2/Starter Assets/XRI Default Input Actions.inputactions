@@ -1485,10 +1485,10 @@
                 {
                     "name": "",
                     "id": "985d28c9-ea39-4b66-9166-4d5f5bd6033f",
-                    "path": "<XRController>{RightHand}/{PrimaryButton}",
-                    "interactions": "Tap",
+                    "path": "*/{PrimaryButton}",
+                    "interactions": "",
                     "processors": "",
-                    "groups": "",
+                    "groups": "Generic XR Controller",
                     "action": "Button A",
                     "isComposite": false,
                     "isPartOfComposite": false
